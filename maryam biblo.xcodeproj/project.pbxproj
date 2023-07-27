@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDD14C9B2A71755100DF0CDF /* maryam_bibloApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD14C9A2A71755100DF0CDF /* maryam_bibloApp.swift */; };
+		BDD14C9D2A71755100DF0CDF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD14C9C2A71755100DF0CDF /* ContentView.swift */; };
+		BDD14C9F2A71755300DF0CDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDD14C9E2A71755300DF0CDF /* Assets.xcassets */; };
+		BDD14CA22A71755300DF0CDF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDD14CA12A71755300DF0CDF /* Preview Assets.xcassets */; };
+		BDD14CAC2A71755300DF0CDF /* maryam_bibloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD14CAB2A71755300DF0CDF /* maryam_bibloTests.swift */; };
+		BDD14CB62A71755300DF0CDF /* maryam_bibloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD14CB52A71755300DF0CDF /* maryam_bibloUITests.swift */; };
+		BDD14CB82A71755300DF0CDF /* maryam_bibloUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD14CB72A71755300DF0CDF /* maryam_bibloUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDD14CA82A71755300DF0CDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDD14C8F2A71755100DF0CDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDD14C962A71755100DF0CDF;
+			remoteInfo = "maryam biblo";
+		};
+		BDD14CB22A71755300DF0CDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDD14C8F2A71755100DF0CDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDD14C962A71755100DF0CDF;
+			remoteInfo = "maryam biblo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BDD14C972A71755100DF0CDF /* maryam biblo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "maryam biblo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDD14C9A2A71755100DF0CDF /* maryam_bibloApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maryam_bibloApp.swift; sourceTree = "<group>"; };
+		BDD14C9C2A71755100DF0CDF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BDD14C9E2A71755300DF0CDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDD14CA12A71755300DF0CDF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BDD14CA72A71755300DF0CDF /* maryam bibloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "maryam bibloTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDD14CAB2A71755300DF0CDF /* maryam_bibloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maryam_bibloTests.swift; sourceTree = "<group>"; };
+		BDD14CB12A71755300DF0CDF /* maryam bibloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "maryam bibloUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDD14CB52A71755300DF0CDF /* maryam_bibloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maryam_bibloUITests.swift; sourceTree = "<group>"; };
+		BDD14CB72A71755300DF0CDF /* maryam_bibloUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maryam_bibloUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDD14C942A71755100DF0CDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDD14CA42A71755300DF0CDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDD14CAE2A71755300DF0CDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDD14C8E2A71755100DF0CDF = {
+			isa = PBXGroup;
+			children = (
+				BDD14C992A71755100DF0CDF /* maryam biblo */,
+				BDD14CAA2A71755300DF0CDF /* maryam bibloTests */,
+				BDD14CB42A71755300DF0CDF /* maryam bibloUITests */,
+				BDD14C982A71755100DF0CDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDD14C982A71755100DF0CDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDD14C972A71755100DF0CDF /* maryam biblo.app */,
+				BDD14CA72A71755300DF0CDF /* maryam bibloTests.xctest */,
+				BDD14CB12A71755300DF0CDF /* maryam bibloUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDD14C992A71755100DF0CDF /* maryam biblo */ = {
+			isa = PBXGroup;
+			children = (
+				BDD14C9A2A71755100DF0CDF /* maryam_bibloApp.swift */,
+				BDD14C9C2A71755100DF0CDF /* ContentView.swift */,
+				BDD14C9E2A71755300DF0CDF /* Assets.xcassets */,
+				BDD14CA02A71755300DF0CDF /* Preview Content */,
+			);
+			path = "maryam biblo";
+			sourceTree = "<group>";
+		};
+		BDD14CA02A71755300DF0CDF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BDD14CA12A71755300DF0CDF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BDD14CAA2A71755300DF0CDF /* maryam bibloTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDD14CAB2A71755300DF0CDF /* maryam_bibloTests.swift */,
+			);
+			path = "maryam bibloTests";
+			sourceTree = "<group>";
+		};
+		BDD14CB42A71755300DF0CDF /* maryam bibloUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BDD14CB52A71755300DF0CDF /* maryam_bibloUITests.swift */,
+				BDD14CB72A71755300DF0CDF /* maryam_bibloUITestsLaunchTests.swift */,
+			);
+			path = "maryam bibloUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDD14C962A71755100DF0CDF /* maryam biblo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDD14CBB2A71755300DF0CDF /* Build configuration list for PBXNativeTarget "maryam biblo" */;
+			buildPhases = (
+				BDD14C932A71755100DF0CDF /* Sources */,
+				BDD14C942A71755100DF0CDF /* Frameworks */,
+				BDD14C952A71755100DF0CDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "maryam biblo";
+			productName = "maryam biblo";
+			productReference = BDD14C972A71755100DF0CDF /* maryam biblo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDD14CA62A71755300DF0CDF /* maryam bibloTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDD14CBE2A71755300DF0CDF /* Build configuration list for PBXNativeTarget "maryam bibloTests" */;
+			buildPhases = (
+				BDD14CA32A71755300DF0CDF /* Sources */,
+				BDD14CA42A71755300DF0CDF /* Frameworks */,
+				BDD14CA52A71755300DF0CDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDD14CA92A71755300DF0CDF /* PBXTargetDependency */,
+			);
+			name = "maryam bibloTests";
+			productName = "maryam bibloTests";
+			productReference = BDD14CA72A71755300DF0CDF /* maryam bibloTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDD14CB02A71755300DF0CDF /* maryam bibloUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDD14CC12A71755300DF0CDF /* Build configuration list for PBXNativeTarget "maryam bibloUITests" */;
+			buildPhases = (
+				BDD14CAD2A71755300DF0CDF /* Sources */,
+				BDD14CAE2A71755300DF0CDF /* Frameworks */,
+				BDD14CAF2A71755300DF0CDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDD14CB32A71755300DF0CDF /* PBXTargetDependency */,
+			);
+			name = "maryam bibloUITests";
+			productName = "maryam bibloUITests";
+			productReference = BDD14CB12A71755300DF0CDF /* maryam bibloUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDD14C8F2A71755100DF0CDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					BDD14C962A71755100DF0CDF = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					BDD14CA62A71755300DF0CDF = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BDD14C962A71755100DF0CDF;
+					};
+					BDD14CB02A71755300DF0CDF = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BDD14C962A71755100DF0CDF;
+					};
+				};
+			};
+			buildConfigurationList = BDD14C922A71755100DF0CDF /* Build configuration list for PBXProject "maryam biblo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDD14C8E2A71755100DF0CDF;
+			productRefGroup = BDD14C982A71755100DF0CDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDD14C962A71755100DF0CDF /* maryam biblo */,
+				BDD14CA62A71755300DF0CDF /* maryam bibloTests */,
+				BDD14CB02A71755300DF0CDF /* maryam bibloUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDD14C952A71755100DF0CDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDD14CA22A71755300DF0CDF /* Preview Assets.xcassets in Resources */,
+				BDD14C9F2A71755300DF0CDF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDD14CA52A71755300DF0CDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDD14CAF2A71755300DF0CDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDD14C932A71755100DF0CDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDD14C9D2A71755100DF0CDF /* ContentView.swift in Sources */,
+				BDD14C9B2A71755100DF0CDF /* maryam_bibloApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDD14CA32A71755300DF0CDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDD14CAC2A71755300DF0CDF /* maryam_bibloTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDD14CAD2A71755300DF0CDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDD14CB82A71755300DF0CDF /* maryam_bibloUITestsLaunchTests.swift in Sources */,
+				BDD14CB62A71755300DF0CDF /* maryam_bibloUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDD14CA92A71755300DF0CDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDD14C962A71755100DF0CDF /* maryam biblo */;
+			targetProxy = BDD14CA82A71755300DF0CDF /* PBXContainerItemProxy */;
+		};
+		BDD14CB32A71755300DF0CDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDD14C962A71755100DF0CDF /* maryam biblo */;
+			targetProxy = BDD14CB22A71755300DF0CDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BDD14CB92A71755300DF0CDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDD14CBA2A71755300DF0CDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDD14CBC2A71755300DF0CDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"maryam biblo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.maryam-biblo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDD14CBD2A71755300DF0CDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"maryam biblo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.maryam-biblo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BDD14CBF2A71755300DF0CDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.maryam-bibloTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/maryam biblo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/maryam biblo";
+			};
+			name = Debug;
+		};
+		BDD14CC02A71755300DF0CDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.maryam-bibloTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/maryam biblo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/maryam biblo";
+			};
+			name = Release;
+		};
+		BDD14CC22A71755300DF0CDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.maryam-bibloUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "maryam biblo";
+			};
+			name = Debug;
+		};
+		BDD14CC32A71755300DF0CDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.maryam-bibloUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "maryam biblo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDD14C922A71755100DF0CDF /* Build configuration list for PBXProject "maryam biblo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDD14CB92A71755300DF0CDF /* Debug */,
+				BDD14CBA2A71755300DF0CDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDD14CBB2A71755300DF0CDF /* Build configuration list for PBXNativeTarget "maryam biblo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDD14CBC2A71755300DF0CDF /* Debug */,
+				BDD14CBD2A71755300DF0CDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDD14CBE2A71755300DF0CDF /* Build configuration list for PBXNativeTarget "maryam bibloTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDD14CBF2A71755300DF0CDF /* Debug */,
+				BDD14CC02A71755300DF0CDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDD14CC12A71755300DF0CDF /* Build configuration list for PBXNativeTarget "maryam bibloUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDD14CC22A71755300DF0CDF /* Debug */,
+				BDD14CC32A71755300DF0CDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDD14C8F2A71755100DF0CDF /* Project object */;
+}
